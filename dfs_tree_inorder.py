@@ -1,3 +1,16 @@
+"""
+Binary Tree - DFS
+                            10
+                2                       15
+        1               7       14              16
+
+inorder = 1 2 7 10 14 15 16
+
+preorder = 10 2 1 7 15 14 16
+
+postorder = 1 7 2 14 16 15 10
+"""
+
 from queue import Queue
 
 class Node:

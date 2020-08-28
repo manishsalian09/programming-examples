@@ -1,3 +1,12 @@
+"""
+Graph - BFS
+
+0 -- 1---4 -- 5
+|   /       /
+| /        /
+2---------3
+"""
+
 from queue import Queue
 class Graph:
     def __init__(self, vertices):
